@@ -1,3 +1,98 @@
 body {
     padding-top: 5rem;
+    background-color: rgb(212, 205, 205);
 }
+
+input {
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #968b8b;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  label {
+      display: block;
+      font-weight: bold;
+      padding-top: 40px;
+  }
+
+  button {
+      background-color: blue;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: white;
+      border-radius: 5px;
+  }
+
+  button:hover {
+      cursor: pointer;
+      background-color: lightpink;
+      color: black;
+  }
+
+  .btn {
+      justify-self: center;
+      align-items: center;
+  }
+  
+  .login-form {
+      text-align: left;
+  }
+  
+  .location-icon {
+      margin-right: 5px;
+      font-size: 16px;
+      font-weight: bold;
+  }
+
+  .property-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .property-price {
+      margin-bottom: 0;
+    }
+    
+    .property-price .badge {
+      font-size: 14px;
+      padding: 5px 10px;
+      background-color: #69b8f5;
+    }
+  
+    .btn-block {
+      width: 100%;
+    }
+  
+    .bubble {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .bubble:first-child {
+      margin-left: 0;
+    }
+    
+    .bubble:last-child {
+      margin-right: 0;
+    }
+  
+    .card-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  
+    .property-card {
+      width: 400px;
+      height: 400px;
+    }
+
+    .listimage {
+      width: 400px; 
+      height: 220px;
+    }
